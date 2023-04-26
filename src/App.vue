@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
 </script>
 
 <template>
@@ -10,6 +10,9 @@ import HelloWorld from './components/HelloWorld.vue'
     <a href="https://vuejs.org/" target="_blank">
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
+  </div>
+  <div class="hello-postcss">
+    <p class="hello-postcss__text">Привет я текст стилизованный с помощью postcss</p>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
