@@ -16,6 +16,8 @@
     "vue": "^3.2.47"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.6.1",
+    "@commitlint/config-conventional": "^17.6.1",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
@@ -29,6 +31,7 @@
     "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-vue": "^9.11.0",
+    "husky": "^8.0.3",
     "postcss": "^8.4.23",
     "postcss-loader": "^7.2.4",
     "postcss-nested": "^6.0.1",
